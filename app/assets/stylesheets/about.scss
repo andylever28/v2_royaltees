@@ -1,0 +1,27 @@
+@import 'variables.scss';
+
+#about-organization-list {
+	content: "";
+	display: table;
+	clear: both;
+	padding-left: 30px;
+	list-style-type: square;
+
+		li {
+			float: left;
+			width: 50%;
+		}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	#about-organization-list { 
+		li {
+			width: 33%;
+		}
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

@@ -2,47 +2,22 @@
 
 html, body, .home-section {
 	height:auto;
-	min-height: 100vh;
 }
 
+#intro {
+  min-height: 100vh;
+}
 * {
 	font-family: 'Cormorant', serif;
 }
 
 .home-section {
-	border-bottom: 1px solid black;
-}
-#mainNav {
-    -webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -ms-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
-}
-.home-section {
-		background-size: cover;
-}
-
-#intro {
-	background-image: image-url("bg_image.jpg");	
-}
-
-.navbar-dark .navbar-nav .nav-item .nav-link {
-	color: white;
-	text-shadow: 0px 0px 3px #000;
+	background-size: cover;
 }
 
 .white-shadow {
 	color: white;
 	text-shadow: 0px 0px 3px #000;
-}
-
-#intro-title {
-	font-size: $large-text;
-}
-
-#intro-description {
-	font-size: $medium-text;
 }
 
 .centered {
@@ -60,7 +35,7 @@ html, body, .home-section {
 
 .bounce {
   position:fixed;
-  left:50%;
+  left:47%;
   bottom:0;
   margin-top:-25px;
   height:50px;
@@ -74,71 +49,14 @@ html, body, .home-section {
 
 }
 
-.section-paragraph {
-	margin-top: 10px;
-}
-
 .section-img {
 	opacity: .5;
 	width: 100%;
 }
 
-.slide-container {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-}
+.section-paragraph {
+  margin:10px 0px;
 
-img.slide-img {
-    width: 100%;
-}
-/* Small devices (tablets, 768px and up) */
-
-.slides {
-  display: none;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-
-
-}
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
-text-decoration: none;
-color: white;
-}
-.next {
-right: 0;
-border-radius: 3px 0 0 3px;
-}
-
-
-#fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .6} 
-to {opacity: 1}
-}
-
-@keyframes fade {
-from {opacity: .6} 
-to {opacity: 1}
 }
 
 @-webkit-keyframes bounce {
@@ -148,9 +66,8 @@ to {opacity: 1}
   100%     {bottom:0;}
 }
 
-.black-border {
-	border: 8px solid black;
-}
+
+
 .no-padding-xs {
 	padding: 0px !important;
 }
@@ -159,9 +76,7 @@ to {opacity: 1}
   .page-title {
     font-size: 30px;
   }
-  .slide-container {
-    width: 75%;
-	}
+  
 	.no-padding-xs {
 		padding: 0px 15px !important;
 	}
