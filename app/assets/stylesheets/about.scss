@@ -1,9 +1,6 @@
 @import 'variables.scss';
 
 #about-organization-list {
-	content: "";
-	display: table;
-	clear: both;
 	padding-left: 30px;
 	list-style-type: square;
 
@@ -21,7 +18,13 @@
 	}
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+		#about-organization-list { 
+			li { 
+				width: 50%;
+			}
+		}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

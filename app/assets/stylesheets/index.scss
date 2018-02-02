@@ -15,6 +15,9 @@ html, body, .home-section {
 	background-size: cover;
 }
 
+#home-logo {
+	width: 100%;
+}
 .white-shadow {
 	color: white;
 	text-shadow: 0px 0px 3px #000;
@@ -76,15 +79,26 @@ html, body, .home-section {
   .page-title {
     font-size: 30px;
   }
-  
+
+  #home-logo {
+		width: 50%;
+	}
 	.no-padding-xs {
 		padding: 0px 15px !important;
+	}
+
+	.section-paragraph {
+		font-size: $medium-text;
 	}
 }
 
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {  
+	.section-paragraph {
+		font-size: $medium-text;
+	}
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
