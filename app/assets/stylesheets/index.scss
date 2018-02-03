@@ -23,12 +23,16 @@ html, body, .home-section {
 	text-shadow: 0px 0px 3px #000;
 }
 
-.centered {
+.flex-centered {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.margin-centered {
+	display: block;
+	margin: 0 auto;
+}
 .text-centered {
 	text-align: center;
 }
@@ -38,7 +42,7 @@ html, body, .home-section {
 
 .bounce {
   position:fixed;
-  left:47%;
+  left:50%;
   bottom:0;
   margin-top:-25px;
   height:50px;
@@ -97,6 +101,10 @@ html, body, .home-section {
 @media (min-width: 992px) {  
 	.section-paragraph {
 		font-size: $medium-text;
+	}
+
+	#home-logo {
+		width: 40%;
 	}
 }
 

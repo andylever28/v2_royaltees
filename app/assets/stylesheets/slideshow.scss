@@ -67,8 +67,14 @@ img.slide-img {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
- 
+  .slide-container {
+    width: 75%;
+  }
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {  
+  .slide-container {
+    width: 65%;
+  }
+}
