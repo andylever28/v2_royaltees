@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+
 	$(window).on('scroll',function(){
 		if ($(window).scrollTop() >= 100) {
 			$('#mainNav').css("background-color", "#343a40"); 
@@ -16,7 +17,8 @@ $( document ).ready(function() {
     e.preventDefault();
     $('#navbarNav').removeClass('show');
 		$('#mainNav').css("background-color", "#343a40"); 
-		let target = this.hash; 
+
+		var target = this.hash; 
 		$target = $(target);
 		$('html, body').stop().animate({
         'scrollTop':  parseInt($target.offset().top,10)
@@ -24,5 +26,6 @@ $( document ).ready(function() {
         window.location.hash = target;
     });
 	})
+
 });
 
