@@ -2,24 +2,47 @@
 
 .contact-card-container {
 	.contact-icon {
-		font-size: 3em;
+		font-size: 4em;
 	}
 
 	ul {
 		list-style-type: none;
+		padding: 0;
+		text-align: center;
+		li {
+			font-size: 1.5em;
+			.svg-inline--fa {
+				width: 1em;
+			}
+		}
 	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+.contact-card-container {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		text-align: left;
+		li {
+			font-size: 1em;
+			.svg-inline--fa {
+				width: 2em;
+			}
+		}
+	}
+}
 	
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 		.contact-card-container {
-			ul li {
-				font-size: 18px;
+			ul {
+				padding: 0 0 0 40px;
+				li {
+					font-size: 1.3em;
+				}
 			}
 		}
  }
