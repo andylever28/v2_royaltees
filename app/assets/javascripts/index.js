@@ -8,12 +8,15 @@ $( document ).ready(function() {
 	   	$("#bounce-arrow").show();
 		}
 	});
+
 	$('#bounce-arrow').css('width', '100%');
 	$("#bounce-arrow").show();
+
 	$('.nav-link').on('click', function(e) {
     e.preventDefault();
+    $('#navbarNav').removeClass('show');
 		$('#mainNav').css("background-color", "#343a40"); 
-		var target = this.hash; 
+		let target = this.hash; 
 		$target = $(target);
 		$('html, body').stop().animate({
         'scrollTop':  parseInt($target.offset().top,10)
