@@ -4,6 +4,10 @@
 	.contact-icon {
 		font-size: 3em;
 	}
+
+	ul {
+		list-style-type: none;
+	}
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -13,7 +17,11 @@
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+		.contact-card-container {
+			ul li {
+				font-size: 18px;
+			}
+		}
  }
 
 /* Large devices (large desktops, 1200px and up) */
