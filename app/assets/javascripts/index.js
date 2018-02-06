@@ -10,8 +10,9 @@ $( document ).ready(function() {
 	});
 	$('#bounce-arrow').css('width', '100%');
 	$("#bounce-arrow").show();
-
-	$('a[href^="#"]').on('click', function() {
+	$('.nav-link').on('click', function(e) {
+    e.preventDefault();
+		$('#mainNav').css("background-color", "#343a40"); 
 		var target = this.hash; 
 		$target = $(target);
 		$('html, body').stop().animate({
