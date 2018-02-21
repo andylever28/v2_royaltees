@@ -52,7 +52,6 @@ html, body, .home-section {
 
 .section-title-col {
 	padding: 65px 0 0px 0;
-
 }
 
 .section-img {
@@ -98,9 +97,6 @@ html, body, .home-section {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
-	.section-paragraph {
-		font-size: $medium-text;
-	}
 	#home-logo {
 		width: 40%;
 	}
@@ -108,7 +104,13 @@ html, body, .home-section {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+	.section-paragraph {
+		font-size: $large-text;
+	}
 
+	.home-section {
+		padding: 0 5%;
+	}
 }
 
 

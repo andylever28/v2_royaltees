@@ -1,11 +1,13 @@
 @import 'variables.scss';
 
 .contact-card-container {
+	text-align: center;
 	.contact-icon {
 		font-size: 4em;
 	}
 
 	ul {
+		display: inline-block;
 		list-style-type: none;
 		padding: 0;
 		text-align: center;
@@ -42,10 +44,22 @@
 				padding: 0 0 0 40px;
 				li {
 					font-size: 1.3em;
+					.svg-inline--fa {
+						width: 1em;
+					}
 				}
 			}
 		}
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+
+	.contact-card-container ul li { 
+		font-size: 1.5em;
+	}
+
+	.contact-card-container .contact-icon {
+		font-size: 5em;
+	}
+ }
