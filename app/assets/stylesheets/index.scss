@@ -15,7 +15,8 @@ html, body, .home-section {
 	background-size: cover;
 }
 
-#home-logo {
+#home-logo,
+#process-logo {
 	width: 100%;
 }
 .white-shadow {
@@ -99,6 +100,9 @@ html, body, .home-section {
 @media (min-width: 992px) {  
 	#home-logo {
 		width: 40%;
+	}
+	#process-logo {
+		width: 50%
 	}
 }
 

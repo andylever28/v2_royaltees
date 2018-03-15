@@ -1,16 +1,10 @@
 <div class="row home-section" id="intro">
 	<div class="col col-xs-12 d-flex flex-column flex-centered section-col" id="intro-col">
- 			<%= image_tag("custom_logo2", id: "home-logo", alt: "Long Island Screen Printing") %> 
-
-<!-- 			<p id="intro-title" class="white-shadow large-text no-margin"> 
-				South Shore Royal Tees 
-			</p>				
-			<p id="intro-description" class="white-shadow medium-text no-margin">
-				Long Island Screen Printing
-			</p>				 -->
+ 			<%= image_tag("custom_logo2", id: "home-logo", alt: "Long Island Screen Printing") %> 		 
 	</div>
 </div>
 
+<%= render partial: "process" %>
 <%= render partial: "about" %>
 <%= render partial: "portfolio" %>
 <%= render partial: "contact" %>
